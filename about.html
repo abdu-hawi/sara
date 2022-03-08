@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="about.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header-bg"></div>
+<img src="logo.png" width="147" height="147" class="logo" />
+
+<ul class="menu">
+ <li class="main-menu"><a href="#">الرئيسية</a></li>
+ <li class="main-menu"><a href="#">الدليل الزراعي</a></li>
+ <li class="main-menu">
+ 	<a href="javascript:void(0)" class="dropbtn">سجل الطلبات</a>
+    <div class="dropdown-content">
+      <a href="record.html">الطلبات الحالية</a>
+      <a href="#">الطلبات السابقة</a>
+    </div>
+ </li>
+ <li class="main-menu"><a href="#">من نحن</a></li>
+ <li class="main-menu"><a href="#">خدماتنا</a></li>
+ <li class="main-menu"><a href="#">تواصل معنا</a></li>
+ <li class="main-menu">
+ 	<div class="input-search" style="display: inline;">
+        <input type="search" placeholder="البحث" class="search search-head"  />
+        <img src="search.png" class="img-search"  />
+    </div>
+ </li>
+</ul>
+
+<ul class="left">
+	<li class="icon-menu"><a href="#"><img src="user.png" width="25" height="25" /></a></li>
+    <li class="icon-menu"><a href="#"><img src="notify.png" width="25" height="25" /></a></li>
+    <li class="icon-menu"><a href="#"><img src="cart.png" width="25" height="25" /></a></li>
+</ul>
+
+
+<div class="content">
+    <div class="farm-desc">
+    	<h1 style="color:#000;">مختصون الزراعة</h1>
+    	<h3>مختص الزراعة هو المسؤول عن العناية والاهتمام بالنباتات و عمليات الري و وضع الاسمدة ومراقبة عملية الزراعة والاشراف عليها</h4>
+    	<h3>- توفر لك هذه الخدمة التواصل السريع واختيار مختص الزراعة الخاص بك -</h3>
+    </div>
+    <img src="farm.png" width="200" height="200" />
+    
+</div>
+<div class="bg-items">
+	<div class="content-items">
+    	<div class="cont">
+        	<div style="display:inline-flex;">
+                <div class="input-search">
+                    <input type="search" placeholder="Find a member..." class="search"  />
+                    <img src="search.png" class="img-search"  />
+                    <span class="number-cnt">10</span>
+                </div>
+                <div class="list-view">
+                    <a href="javascript:void(0)" onclick="gridClick()">
+                        <img src="list-view.png" width="20" height="20" title="List view" style="margin-top: 5px;" /> 
+                    </a>
+                </div>
+                <div class="grid-view">
+                    <a href="javascript:void(0)" onclick="listClick()">
+                        <img src="grid-view.png" width="20" height="20" title="Grid view" style="margin-top: 5px;" />
+                    </a>
+                </div> 
+            </div>
+            <div class="head-left">
+                <select>
+                    <option>All members</option>
+                    <option>Collobrators</option>
+                    <option>Writers</option>
+                </select>
+                <label for="dp" id="sort">Sort by:
+                    <select id="dp">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        
+        <div id="list-show" style="display:block ruby;">
+        	<div class="profile">
+                <div class="report-action">
+                    <input id="report" type="checkbox" />
+                    <label for="report"><img src="dots.png" width="20" height="20" /></label>
+                    <ul class="action-menu">
+                      <li><a href="#">Item 1</a></li>
+                      <li><a href="#">Item 2</a></li>
+                    </ul> 
+                </div>
+                <img src="profile.png" class="profile-img" />
+                <h3>سارة السبيعي</h3>
+                <span class="type-user">مستشار زراعي</span>
+                <div class="flow">
+                    <div class="flowers">
+                        <a href="#">
+                        <p>6</p>
+                        flowers
+                        </a>
+                    </div>
+                    <div class="flowing">
+                        <a href="#">
+                        <p>6</p>
+                        flowing
+                        </a>
+                    </div>
+                </div>
+                <div class="container-follow-btn">
+                    <button class="img-follow"><img src="g-chat.png" width="20" height="20" /></button>
+                    <button class="btn-follow">Follow</button>
+                </div>
+            </div>
+            
+        	<div class="profile">
+                <div class="report-action">
+                    <input id="report" type="checkbox" />
+                    <label for="report"><img src="dots.png" width="20" height="20" /></label>
+                    <ul class="action-menu">
+                      <li><a href="#">Item 1</a></li>
+                      <li><a href="#">Item 2</a></li>
+                    </ul> 
+                </div>
+                <img src="profile.png" class="profile-img" />
+                <h3>سارة السبيعي</h3>
+                <span class="type-user">مستشار زراعي</span>
+                <div class="flow">
+                    <div class="flowers">
+                        <a href="#">
+                        <p>6</p>
+                        flowers
+                        </a>
+                    </div>
+                    <div class="flowing">
+                        <a href="#">
+                        <p>6</p>
+                        flowing
+                        </a>
+                    </div>
+                </div>
+                <div class="container-follow-btn">
+                    <button class="img-follow"><img src="g-chat.png" width="20" height="20" /></button>
+                    <button class="btn-follow">Follow</button>
+                </div>
+            </div>
+            
+        	<div class="profile">
+                <div class="report-action">
+                    <input id="report" type="checkbox" />
+                    <label for="report"><img src="dots.png" width="20" height="20" /></label>
+                    <ul class="action-menu">
+                      <li><a href="#">Item 1</a></li>
+                      <li><a href="#">Item 2</a></li>
+                    </ul> 
+                </div>
+                <img src="profile.png" class="profile-img" />
+                <h3>سارة السبيعي</h3>
+                <span class="type-user">مستشار زراعي</span>
+                <div class="flow">
+                    <div class="flowers">
+                        <a href="#">
+                        <p>6</p>
+                        flowers
+                        </a>
+                    </div>
+                    <div class="flowing">
+                        <a href="#">
+                        <p>6</p>
+                        flowing
+                        </a>
+                    </div>
+                </div>
+                <div class="container-follow-btn">
+                    <button class="img-follow"><img src="g-chat.png" width="20" height="20" /></button>
+                    <button class="btn-follow">Follow</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="grid-show">
+            <div class="grid-show">
+                <img src="profile.png" class="grid-profile-img" />
+                <div class="grid-contact">
+                    <p>سارة السبيعي</p>
+                    <p>Writer</p>
+                    <p><span class="grid-type-user">مستشار زراعي</span></p>
+                </div>
+            
+                <div class="report-action grid-report-action">
+                    <input id="report1" class="report" type="checkbox" />
+                    <label for="report1"><img src="dots.png" width="20" height="20" /></label>
+                    <ul class="grid-action-menu">
+                      <li><a href="#">Item 1</a></li>
+                      <li><a href="#">Item 2</a></li>
+                    </ul> 
+                </div>
+                <div class="grid-follow">
+                    <span> 5 Followers </span>
+                    <span> 1 Following </span>
+                    <div class="grid-follow-btn">
+                        <button class="btn-follow grid-btn-follow">Follow</button>
+                        <button class="img-follow grid-img-follow"><img src="g-chat.png" width="20" height="20" /></button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="grid-show">
+                <img src="profile.png" class="grid-profile-img" />
+                <div class="grid-contact">
+                    <p>سارة السبيعي</p>
+                    <p>Writer</p>
+                    <p><span class="grid-type-user">مستشار زراعي</span></p>
+                </div>
+            
+                <div class="report-action grid-report-action">
+                    <input id="report1" class="report" type="checkbox" />
+                    <label for="report1"><img src="dots.png" width="20" height="20" /></label>
+                    <ul class="grid-action-menu">
+                      <li><a href="#">Item 1</a></li>
+                      <li><a href="#">Item 2</a></li>
+                    </ul> 
+                </div>
+                <div class="grid-follow">
+                    <span> 5 Followers </span>
+                    <span> 1 Following </span>
+                    <div class="grid-follow-btn">
+                        <button class="btn-follow grid-btn-follow">Follow</button>
+                        <button class="img-follow grid-img-follow"><img src="g-chat.png" width="20" height="20" /></button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid-show">
+                <img src="profile.png" class="grid-profile-img" />
+                <div class="grid-contact">
+                    <p>سارة السبيعي</p>
+                    <p>Writer</p>
+                    <p><span class="grid-type-user">مستشار زراعي</span></p>
+                </div>
+            
+                <div class="report-action grid-report-action">
+                    <input id="report1" class="report" type="checkbox" />
+                    <label for="report1"><img src="dots.png" width="20" height="20" /></label>
+                    <ul class="grid-action-menu">
+                      <li><a href="#">Item 1</a></li>
+                      <li><a href="#">Item 2</a></li>
+                    </ul> 
+                </div>
+                <div class="grid-follow">
+                    <span> 5 Followers </span>
+                    <span> 1 Following </span>
+                    <div class="grid-follow-btn">
+                        <button class="btn-follow grid-btn-follow">Follow</button>
+                        <button class="img-follow grid-img-follow"><img src="g-chat.png" width="20" height="20" /></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="btn-chat">
+<img src="chat.png" width="40" height="40" /> </div>
+
+<script>
+
+var grid_show = document.getElementById("grid-show");
+var list_show = document.getElementById("list-show");
+(function() {
+	listClick();
+})();
+function gridClick() {
+	list_show.style.display = "none";
+	grid_show.style.display = "unset";
+}
+function listClick() {
+	grid_show.style.display = "none";
+	list_show.style.display = "block ruby";
+}
+</script>
+
+</body>
+</html>
